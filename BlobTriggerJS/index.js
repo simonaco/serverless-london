@@ -16,6 +16,7 @@ module.exports = function(context, myBlob) {
       context.done();
       return;
     } else {
+      context.log('Hello servelrless london');
       context.log(result.body);
       context.done();
     }
